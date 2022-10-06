@@ -1,0 +1,30 @@
+.logo {
+    color: var(--accent-color);
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+}
+
+.logo__page-header {
+    color:var(--accent-color);
+    font-family: var(--secondary-font);
+
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+    margin-right: 93px;
+}
+.logo__page-header_logos {
+    color:var(--title-text-color) ;
+}
+
+.contact-list__logo-link {
+    margin: 0px;
+    padding-bottom: 20px;
+}
+
+.contact-list__logo-studio {
+    color: var(--primary-white-color);
+}

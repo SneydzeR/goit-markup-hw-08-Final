@@ -1,0 +1,220 @@
+
+.contact-list {
+    background-color: var(--secondary-black-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.contact-list__footer-hub {
+    display: block;
+  }
+
+.contact-list__logo-link {
+    margin: 0px;
+    padding-bottom: 20px;
+}
+
+.contact-list__logo-studio {
+    color: var(--primary-white-color);
+}
+
+.contact-list__logof-link {
+    color:var(--accent-color);
+    font-family: var(--secondary-font);
+
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+    margin: 0px;
+    padding-bottom: 20px;
+  }
+
+.contact-list__footernew {
+    display: flex;
+    align-items: baseline;
+    padding: 0px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  } 
+
+.contact-list__keys {
+    font-style: normal;
+    margin-top: 20px;
+  }
+
+
+.contact-list__contact-foot .link {
+      color: var(--primary-text-color);
+  
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 1.14;
+      letter-spacing: 0.02em;
+      text-decoration: none;
+  
+  &:hover, 
+  &:focus {
+      color: var(--accent-color);
+  }
+  
+  }
+
+.contact-list__item {
+    margin-bottom: 0px;
+  }
+
+.contact-list__item:not(:last-child) {
+    margin-bottom: 9px;
+  }
+
+.contact-list__map-link {
+    color: var(--primary-white-color);
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    text-decoration: none;
+}
+
+.contact-list__super-footer {
+    margin-left: 94px;
+  }
+
+  .contact-list__social-media-foot {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    border-radius: 50px;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 20px;
+  }
+  .contact-list__block {
+    width: 44px;
+    height: 44px;
+    fill: var(--fon-button-color);
+    
+    display: flex;
+
+    cursor: pointer;
+    margin-right: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+
+    justify-content: center;
+    align-items: center;
+  }
+
+.contact-list__block {
+    margin: 0px;
+  }
+.contact-list__block:not(:last-child) {
+    margin-right: 10px;
+  }
+
+.contact-list__sociamod-link {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: var(--fon-button-color);
+    background-color: var(--link-icon-color);
+    border-radius: 50%;
+    transition: background-color var(--transition), fill var(--transition);
+
+  &:hover, 
+  &:focus{
+    background-color: var(--accent-color);
+    fill: var(--primary-white-color);
+}
+}
+
+
+.contact-list__footer-form {
+    margin-left: auto;
+    display: flex;
+}
+
+.contact-list__social-foot {
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-style: normal;
+    color: var(--primary-white-color);
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 20px;
+  }
+
+.contact-list__sform {
+    display: block;
+    align-items: center;
+    padding: 0;
+}
+
+.contact-list__gopa {
+    display: flex;
+}
+
+.contact-list__email-input {
+    color: var(--contacts-color);
+}
+
+.contact-list__email-input {
+    display: block;
+    background-color: transparent;
+    width: 358px;
+    height: 50px;
+    border: 1px solid var(--foot-bord-color);
+    border-radius: 4px;
+    padding-left: 16px;
+} 
+
+
+.contact-list__footer-form {
+    margin-left: 93px;
+    margin-right: auto;
+  }
+
+.contact-list__footer-form input{
+    margin-right: 12px;
+} 
+
+.contact-list__footbtn {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--primary-white-color);
+  height: 50px;
+  width: 200px;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: var(--client-icon-color);
+  cursor: pointer;
+  margin: 0px;
+  transition: background-color var(--transition);
+
+&:hover,
+&:focus {
+  background-color: var(--super-blue-color);
+}
+}
+
+.contact-list__footbtn-image {
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+}

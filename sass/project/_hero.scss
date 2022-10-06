@@ -1,0 +1,55 @@
+
+.hero {
+    max-width: 1600px;
+    height: 600px;
+    background-image: linear-gradient(to right,rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(../images/img-fone.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    margin-top: 0;
+    margin: 0px auto;
+    padding-bottom: 200px;
+    padding-top: 200px;
+}
+
+h1,h2,h3 { margin: 0px;
+}
+
+.hero__title {
+    margin-bottom: 30px;
+
+    color:var(--primary-white-color) ;
+    
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.37;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.hero__button-primary {
+    min-width: 216px;
+    display:inline-block;
+    padding: 10px 32px;
+   
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border:none;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.88;
+    text-align: center;
+    transition: background-color var(--transition), color var(--transition) ;
+
+    &:hover, 
+    &:focus {
+    background-color : var(--super-blue-color);
+    color: var(--primary-white-color);
+    cursor:pointer;
+}
+}
+
+

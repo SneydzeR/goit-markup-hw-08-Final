@@ -1,0 +1,112 @@
+
+.fone {
+    background-color: var(--fon-button-color);
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.fone__team-list {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.fone__working-list {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+.fone__work-platform {
+    background: var(--primary-white-color) ;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+
+    width: 270px;
+    text-align: center;
+}
+
+.fone__work-platform {
+    margin-right: 0px;
+}
+
+.fone__work-platform:not(:last-child) {
+    margin-right: 30px;
+}
+
+.fone__title {
+    margin-top: 0px;
+}
+
+.fone__text {
+    margin-top: 0px;
+    color: var(--text-people-color)
+}
+
+.fone__text{
+    color: var(--primary-text-color);
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+
+.fone__title {
+    margin-bottom: 10px;
+}
+
+.fone__portal {
+   padding: 30px;
+}
+
+.fone__text {
+    margin: 0px;
+}
+
+.fone__media {
+    display: flex;
+    list-style: none;
+    border-radius: 50px;
+    margin-top: 16px;
+    padding: 0px;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.fone__person-card {
+    background-color: var(--primary-white-color);
+}
+
+.fone__sociamod-links {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--link-icon-color);
+    border-radius: 50%;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+    fill: var(--icon-fons-color);
+    transition: background-color var(--transition), fill var(--transition);
+
+    &:hover, 
+    &:focus{
+        background-color: var(--accent-color);
+        fill: var(--primary-white-color);
+    }
+  }
+
+
+
+  .fone__social-icon {
+    width: 20px;
+    height: 20px;
+  }

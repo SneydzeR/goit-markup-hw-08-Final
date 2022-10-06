@@ -1,0 +1,43 @@
+.contact-list__social-media-foot {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    border-radius: 50px;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 20px;
+  }
+  .contact-list__block {
+    width: 44px;
+    height: 44px;
+    fill: var(--fon-button-color);
+    
+    display: flex;
+
+    cursor: pointer;
+    margin-right: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-list__sociamod-link {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: var(--fon-button-color);
+    background-color: var(--link-icon-color);
+    border-radius: 50%;
+    transition: background-color var(--transition), fill var(--transition);
+  
+    &:hover, 
+      &:focus {   
+        background-color: var(--accent-color);
+        fill: var(--primary-white-color);
+      }
+
+}
