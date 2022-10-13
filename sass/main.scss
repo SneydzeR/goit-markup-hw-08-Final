@@ -1,5 +1,5 @@
-@import "./utis/variables";
-@import "./utis/visually-hidden";
+@import "./util/variables";
+@import "./util/visually-hidden";
 
 @import "./base/general";
 @import "./base/container";
@@ -20,12 +20,8 @@
 @import "./project/modal";
 @import "./project/modal-f";
 
-
 @import "./chart/visual";
 @import "./chart/resumee";
 @import "./chart/teams";
 @import "./chart/customers";
 @import "./chart/cards";
-
-
-
