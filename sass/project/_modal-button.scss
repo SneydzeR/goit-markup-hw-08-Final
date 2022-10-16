@@ -34,7 +34,6 @@
     position: absolute;
     top: 10px;
     right: 15px;
-    background-color: transparent;
     border: 0;
     padding: 0;
     line-height: 0;
@@ -46,6 +45,7 @@
   .mobile-menu__close-icon {
     width: 40px;
     height: 40px;
+    color: #212121;
     &:active {
       fill: var(--button-background-hover);
     }
