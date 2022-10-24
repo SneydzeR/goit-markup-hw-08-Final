@@ -14,6 +14,8 @@
       padding: 118px 0 118px 0;
     }
     .title-text {
+      max-width: 360px;
+      width: 100%;
       margin: 0 auto;
       text-align: center;
       text-transform: uppercase;
@@ -153,7 +155,7 @@
           rgba(47, 48, 58, 0.4),
           rgba(47, 48, 58, 0.4)
         ),
-        url(../images/mobile/header/hero.jpg);
+        url(../images/mobile/header/hero@2x.jpg);
     }
   }
   
@@ -165,7 +167,7 @@
           rgba(47, 48, 58, 0.4),
           rgba(47, 48, 58, 0.4)
         ),
-        url(../images/tablet/header/hero.jpg);
+        url(../images/tablet/header/hero@2x.jpg);
     }
   }
   @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
